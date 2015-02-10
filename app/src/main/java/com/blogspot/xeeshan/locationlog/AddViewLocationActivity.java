@@ -39,7 +39,9 @@ public class AddViewLocationActivity extends ActionBarActivity
 
     @Override
     public void onClick(View mView)
-    {
+	{
+		Toast.makeText(this, "Test", Toast.LENGTH_LONG);
+    
         try
         {
             mLocationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
